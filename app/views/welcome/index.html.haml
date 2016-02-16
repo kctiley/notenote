@@ -1,1 +1,29 @@
-%h1 This is the welcome index 
+#banner
+  .banner_content
+    %h1 Notenote
+    %p Your online notebook. Never forget an idea again.
+    %button= link_to "Sign Up", new_user_registration_path
+#testimonial
+  .wrapper
+    %p.quote "This is the best note taking app designed by KT yet!"
+    %p.name - Klint Tiley
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Food
+        %p Stumptown scenester umami meh. Sriracha normcore fingerstache, dreamcatcher taxidermy fanny pack truffaut messenger bag deep v franzen microdosing tote bag tousled gluten-free 
+      .callout
+        %h2 Errands
+        %p YOLO venmo brunch wolf. Squid heirloom tofu locavore. Hoodie pour-over 3 wolf moon scenester, migas direct trade chicharrones tilde vice PBR&B. Neutra brunch crucifix literally.
+      .callout
+        %h2 Follow Up
+        %p Narwhal irony actually, echo park cornhole man braid roof party tilde tote bag. Leggings fixie helvetica, gastropub 90's roof party locavore williamsburg kitsch venmo.  
+#bottom_cta
+  .wrapper
+    %h2 Do it!
+    %p You should sign up.
+    %button= link_to "Click me", new_user_registration_path
+%footer
+  %p &copy; sudo
